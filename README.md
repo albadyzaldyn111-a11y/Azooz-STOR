@@ -173,10 +173,7 @@ AZOOZ STORE
    ```
 
 3. **Environment Setup**
-   The `.env` file is pre-configured with:
-   - Database connection
-   - OAuth credentials
-   - Session secrets
+   Copy the provided `.env.example` to `.env` and fill in local development values for the database, OAuth integration, and session secrets. Never commit the real `.env` file or production credentials.
 
 4. **Database Setup**
    ```bash
